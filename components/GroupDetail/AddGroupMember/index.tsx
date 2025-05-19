@@ -6,7 +6,8 @@ import { addSlide } from '@/store/slices/ChangeSilde';
 import Image from 'next/image';
 import i18n from '@/i18n';
 import LastSeen from '@/components/LastSeenCompo/Index';
-import { ContactValue } from '@/utils/useUserStatus';
+import { ContactValue } from '@/store/slices/AccountInformationSlice';
+
 
 const AddMembersToGroup = ({ socket }: { socket: WebSocket }) => {
   const { t } = i18n;

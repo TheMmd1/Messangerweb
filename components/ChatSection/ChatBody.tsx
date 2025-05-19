@@ -242,12 +242,9 @@ function ChatBody({ socket, setOpenEditSec, uploadProgress, fileId, fileSize }: 
     }, 1300);
   }, [messagesFileId, downloadStatus]);
 
-
-
   // Forwad Message
 
-  const [openForwardMessageDialog,setOpenForwardMessageDialog] = useState<boolean>();
-
+  const [openForwardMessageDialog, setOpenForwardMessageDialog] = useState<boolean>(false); 
 
   return (
     <section
@@ -508,7 +505,7 @@ function ChatBody({ socket, setOpenEditSec, uploadProgress, fileId, fileSize }: 
         titleText={t('deleteMessageTitle')}
         hasTitle={true}
       />
-      <ForwadMessage open={openForwardMessageDialog} setOpen={setOpenForwardMessageDialog} socket={socket} />
+      <ForwadMessage open={openForwardMessageDialog ?? false} setOpen={setOpenForwardMessageDialog} socket={socket} />
       <ImageDialog imageUrl={imageDialogUrl!} open={openImageMessageDialog} setOpen={setOpenImageMessageDialog} />
     </section>
   );

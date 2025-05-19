@@ -1,6 +1,8 @@
-import { ReactNode } from 'react';
+// import { ReactNode } from 'react';
 
 // رندر صفحه home
-export default function page({ children }: { children?: ReactNode }) {
-  return <>{children}</>;
+// app/home/page.tsx
+
+export default function HomePage() {
+  return <div>Welcome to the Home Page</div>;
 }

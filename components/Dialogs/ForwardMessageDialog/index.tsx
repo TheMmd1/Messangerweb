@@ -30,7 +30,7 @@ const Index = ({open ,setOpen, socket} : ForwardMessageType) => {
   // Custom search filter
   const filteredResults = query
     ? contactInfo.filter((item) => {
-        const name = item.contact_name || item.title || '';
+      const name = item.contact_name || '';
         return name.toLowerCase().includes(query.toLowerCase());
       })
     : contactInfo;
@@ -102,7 +102,7 @@ const Index = ({open ,setOpen, socket} : ForwardMessageType) => {
                             />
                             <div className="flex flex-col items-center justify-center">
                               <p className="font-IranYekanBold flex w-full items-center justify-start text-[1.7dvh] font-bold text-black md:text-[1.7dvh]">
-                                {item?.contact_name ? item?.contact_name : <PulseLoading width={'80%'} height={'2dvh'} />}
+                                {item?.contact_name || <PulseLoading width={'80%'} height={'2dvh'} />}
                               </p>
                               <p className="font-IranYekanDemiBold flex w-full items-center justify-start text-[1.5dvh] text-MainTextTwo md:text-[1.8dvh]">
                                 <LastSeen socket={socket} userId={item.contact_id!} />
@@ -138,11 +138,11 @@ const Index = ({open ,setOpen, socket} : ForwardMessageType) => {
                     />
                     <div className="flex flex-col items-center justify-center gap-y-3">
                       <p className="font-IranYekanDemiBold flex w-full items-center justify-start text-[1.8dvh] text-MainTextOne md:text-[2dvh]">
-                        {item?.contact_name || item?.title || item?.name || <PulseLoading width={'80%'} height={'2dvh'} />}
+                        {item?.contact_name || <PulseLoading width={'80%'} height={'2dvh'} />}{' '}
                       </p>
 
                       <p className="font-IranYekanDemiBold flex w-full items-center justify-start text-[1.5dvh] text-MainTextTwo md:text-[1.8dvh]">
-                        <LastSeen socket={socket} userId={item.contact_id || item.id} />
+                        <LastSeen socket={socket} userId={(item as any).contact_id || (item as any).id} />
                       </p>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ const Index = ({open ,setOpen, socket} : ForwardMessageType) => {
               <p className="font-IranYekanBold mt-4 text-center text-[1.7dvh] text-gray-400">{t('no_results_found')}</p>
             )}
           </div>
-          <div className='w-full flex justify-start'>
+          <div className="flex w-full justify-start">
             {showForwadBtn && (
               <button className="mt-3 rounded-[10px] bg-MainBgThree px-6 py-2 text-[18px] text-MainBgOne shadow-[0_1px_5px_#00000024]">ارسال</button>
             )}

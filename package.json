@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@ffmpeg/ffmpeg": "^0.12.15",
@@ -45,8 +43,7 @@
     "react-voicemail-player": "^0.0.10",
     "stories-react": "^1.1.2",
     "uuid": "^11.0.3",
-    "ws": "^8.18.0",
-    "homepage": "https://TheMmd1.github.io/Messangerweb"
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@grpc/proto-loader": "^0.7.13",

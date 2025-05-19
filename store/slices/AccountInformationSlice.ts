@@ -20,7 +20,7 @@ export interface MessageFormatTypes {
 }
 export interface ContactValue {
   contact_id: number | null;
-  contact_name: string;
+  contact_name?: string;
   contact_value: string;
   GUID?: string;
 }
