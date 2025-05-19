@@ -1,0 +1,51 @@
+export const docChat = [
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/21",
+    fileType: "png",
+    fileName: "fileNameTest.png",
+    size: "500 KB",
+  },
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/22",
+    fileType: "jpg",
+    fileName: "fileNameTest.jpg",
+    size: "500 KB",
+  },
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/23",
+    fileType: "html",
+    fileName: "fileNameTest.html",
+    size: "500 KB",
+  },
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/24",
+    fileType: "webp",
+    fileName: "fileNameTest.webp",
+    size: "500 KB",
+  },
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/25",
+    fileType: "css",
+    fileName: "fileNameTest.css",
+    size: "500 KB",
+  },
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/25",
+    fileType: "css",
+    fileName: "fileNameTest.css",
+    size: "500 KB",
+  },
+  {
+    stringDate: "مرداد1402",
+    date: "1401/05/25",
+    fileType: "css",
+    fileName: "fileNameTest.css",
+    size: "500 KB",
+  },
+];

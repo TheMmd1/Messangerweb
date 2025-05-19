@@ -1,0 +1,441 @@
+/* splash animation */
+/* ------------------------------------------------------------- */
+.fade-out {
+  animation: fadeInOut 3.5s forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+/* ------------------------------------------------------------------- */
+/* home page white box shadow  */
+/* --------------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+  .box-shadow {
+    box-shadow:
+      0px -15px 30px -18px rgba(0, 0, 0, 0.45),
+      0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+  }
+}
+
+/* call end button shadow  */
+.box-shadow-end-call {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.shadoow-3D {
+  box-shadow: 0px 8px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* rtl ltr  */
+/* ------------------------------------------------------------------- */
+.ltr-custome {
+  direction: ltr !important;
+}
+
+.rtl-custome {
+  direction: rtl !important;
+}
+/* -------------------------------------------------------------------- */
+/* blur for hambergermenu  */
+.blur-menu {
+  background: rgba(56, 162, 113, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.4px);
+  -webkit-backdrop-filter: blur(12.4px);
+}
+
+/* custome scroll bar in web */
+/* ------------------------------------------------------------------------- */
+.your-component-scrollbar {
+  overflow-y: auto;
+  scrollbar-width: auto;
+  scrollbar-color: auto;
+}
+
+.your-component-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.your-component-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+
+.your-component-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #787878;
+}
+
+.your-component-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* -------------------------------------hidden scroll------------------------------ */
+.your-component-scrollbar-hidden {
+  overflow-y: auto;
+  scrollbar-width: auto;
+  scrollbar-color: auto;
+}
+
+.your-component-scrollbar-hidden::-webkit-scrollbar {
+  width: 8px;
+}
+
+.your-component-scrollbar-hidden::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.your-component-scrollbar-hidden::-webkit-scrollbar-thumb:active {
+  background-color: transparent;
+}
+
+.your-component-scrollbar-hidden::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* ------------------------------------------------------------------------- */
+/* x scroll */
+/* ------------------------------------------------------------------------- */
+.your-component-scrollbarx {
+  overflow-x: auto;
+  scrollbar-width: auto;
+  scrollbar-color: auto;
+}
+
+.your-component-scrollbarx::-webkit-scrollbar {
+  height: 5px;
+}
+
+.your-component-scrollbarx::-webkit-scrollbar-thumb {
+  background-color: #697680;
+  border-radius: 6px;
+  /* Adjust the border radius as needed */
+}
+
+.your-component-scrollbarx::-webkit-scrollbar-thumb:active {
+  background-color: #001b2e;
+  border-radius: 6px;
+  /* Adjust the border radius as needed */
+}
+
+.your-component-scrollbarx::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* --------------------------------------------------------------------- */
+/* chat input shadow  */
+.input-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* ------------------------------------------------------------------------ */
+/* remove the arrows from input[type=number] */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* rotate for hamberger menu icon */
+.rotateYMenu {
+  transform: rotateY(180deg);
+}
+
+/* ---------------------------------------------------------------------- */
+
+.progress-styles_wrapper__qQPyW {
+  bottom: 1vw !important;
+  top: unset !important;
+  direction: ltr !important;
+  padding-bottom: 2rem !important;
+}
+
+.ProgressBar-styles_bar__x0O50 {
+  height: 5px !important;
+}
+
+.ProgressBar-styles_wrapper__oqUCo {
+  background-color: #6a6a6aa4 !important;
+  height: 5px !important;
+}
+
+@media screen and (max-width: 650px) {
+  .styles_main__-0FEu {
+    position: fixed !important;
+    inset: 0 !important;
+    /* height: 100dvh !important; */
+    z-index: 9999;
+  }
+}
+
+/* ------------------------------------------------------------------------------- */
+/* this styles for select option in login form */
+.css-1jqq78o-placeholder {
+  text-align: start !important;
+}
+
+.css-13cymwt-control {
+  border-radius: unset !important;
+  border-style: unset !important;
+  border-width: unset !important;
+  flex-wrap: nowrap !important;
+  background-color: unset !important;
+}
+
+.css-t3ipsp-control {
+  background-color: hsl(0, 0%, 100%);
+  border-color: unset !important;
+  border-radius: unset !important;
+  border-style: unset !important;
+  border-width: unset !important;
+  box-shadow: unset !important;
+}
+
+.css-t3ipsp-control:hover {
+  border-color: unset !important;
+}
+
+.css-tr4s17-option {
+  background: #38a271 !important;
+}
+
+.css-d7l1ni-option {
+  background: #fff !important;
+}
+
+.css-1dimb5e-singleValue {
+  direction: ltr !important;
+  text-align: end !important;
+  font-size: 16px;
+}
+
+.css-1nmdiq5-menu {
+  font-size: 1rem;
+  direction: ltr;
+}
+.css-15lsz6c-indicatorContainer,
+.css-1xc3v61-indicatorContainer {
+  padding: 0 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.Toastify__toast {
+  border-radius: 10px !important;
+}
+
+.css-hlgwow {
+  padding: 2px !important;
+}
+
+.css-1nmdiq5-menu > div > div {
+  transition: all 0.3s !important;
+  cursor: pointer !important;
+}
+
+.css-1nmdiq5-menu > div > div:hover {
+  background-color: #38a271 !important;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 600px) {
+  .Toastify__toast {
+    width: 80vw !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .css-1dimb5e-singleValue {
+    font-size: 1rem !important;
+  }
+
+  .css-19bb58m {
+    width: 30px !important;
+    padding: unset !important;
+  }
+
+  .css-1xc3v61-indicatorContainer,
+  .css-15lsz6c-indicatorContainer {
+    padding: unset !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .css-1dimb5e-singleValue,
+  .css-1nmdiq5-menu {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* chat bottom background */
+
+.custome-blur {
+  background: linear-gradient(286deg, rgba(243, 243, 244, 0.6) 51.47%, rgba(243, 243, 244, 0) 103.46%);
+  box-shadow: 10px 10px 20px rgba(0, 27, 46, 0.15);
+  backdrop-filter: blur(6px);
+}
+
+/* ====================================== */
+/* for custom vice style */
+
+/* for custom custom_spinner */
+.custom_spinner,
+.custom_spinner div {
+  box-sizing: border-box;
+}
+
+.custom_spinner {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.custom_spinner div {
+  position: absolute;
+  width: 6.4px;
+  height: 6.4px;
+  background: #76c3a0;
+  border-radius: 50%;
+  animation: custom_spinner 1.2s linear infinite;
+}
+
+.custom_spinner div:nth-child(1) {
+  animation-delay: 0s;
+  top: 36.8px;
+  left: 66.24px;
+}
+
+.custom_spinner div:nth-child(2) {
+  animation-delay: -0.1s;
+  top: 22.08px;
+  left: 62.29579px;
+}
+
+.custom_spinner div:nth-child(3) {
+  animation-delay: -0.2s;
+  top: 11.30421px;
+  left: 51.52px;
+}
+
+.custom_spinner div:nth-child(4) {
+  animation-delay: -0.3s;
+  top: 7.36px;
+  left: 36.8px;
+}
+
+.custom_spinner div:nth-child(5) {
+  animation-delay: -0.4s;
+  top: 11.30421px;
+  left: 22.08px;
+}
+
+.custom_spinner div:nth-child(6) {
+  animation-delay: -0.5s;
+  top: 22.08px;
+  left: 11.30421px;
+}
+
+.custom_spinner div:nth-child(7) {
+  animation-delay: -0.6s;
+  top: 36.8px;
+  left: 7.36px;
+}
+
+.custom_spinner div:nth-child(8) {
+  animation-delay: -0.7s;
+  top: 51.52px;
+  left: 11.30421px;
+}
+
+.custom_spinner div:nth-child(9) {
+  animation-delay: -0.8s;
+  top: 62.29579px;
+  left: 22.08px;
+}
+
+.custom_spinner div:nth-child(10) {
+  animation-delay: -0.9s;
+  top: 66.24px;
+  left: 36.8px;
+}
+
+.custom_spinner div:nth-child(11) {
+  animation-delay: -1s;
+  top: 62.29579px;
+  left: 51.52px;
+}
+
+.custom_spinner div:nth-child(12) {
+  animation-delay: -1.1s;
+  top: 51.52px;
+  left: 62.29579px;
+}
+
+@keyframes custom_spinner {
+  0%,
+  20%,
+  80%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+}
+/* ======================================= */
+#profile_form label,
+#profile_form input {
+  color: #fff !important;
+}
+#profile_form input:focus ~ label::before,
+#profile_form input:focus ~ label::after {
+  border-color: white !important ;
+}
+#profile_form input:focus {
+  border-top: none !important;
+  border-color: white;
+}
+
+.reactEasyCrop_CropArea {
+  border-radius: 50%;
+  border: none !important;
+  width: 100% !important;
+  aspect-ratio: 1/1 !important;
+  height: unset !important;
+  transition: all 0.3s;
+}
+.reactEasyCrop_Contain {
+  max-height: unset !important;
+  max-width: unset !important;
+  width: 100% !important;
+}
+/* /////////////////////////////////////////////////////////////////////////// */
+/* #deleteDialogStyle {
+  width: 33% !important;
+  max-width: 25% !important;
+}
+@media screen and (max-width: 960px) {
+  #deleteDialogStyle {
+    min-width: 28% !important;
+  }
+} */

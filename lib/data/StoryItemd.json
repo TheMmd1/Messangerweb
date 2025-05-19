@@ -1,0 +1,17 @@
+[
+  {
+    "type": "image",
+    "url": "/svg/default_profile/user-profile.svg",
+    "duration": 5000
+  },
+  {
+    "type": "image",
+    "url": "/svg/default_profile/user-profile.svg",
+    "duration": 5000
+  },
+  {
+    "type": "image",
+    "url": "/svg/default_profile/user-profile.svg",
+    "duration": 5000
+  }
+]

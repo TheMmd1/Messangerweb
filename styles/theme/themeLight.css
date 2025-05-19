@@ -1,0 +1,8 @@
+html[data-theme="light"] {
+  --chat-text: #000000;
+  --main-bg-one: #ffffff;
+  --main-bg-two: #eff8f4;
+  --main-bg-three: #38a271;
+  --main-text-one: #000000;
+  --main-text-two: #606060;
+}
